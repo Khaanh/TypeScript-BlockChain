@@ -1,0 +1,16 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "TypeChain",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"src/index.ts\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "crypto-js": "^4.1.1",
+    "tsc-watch": "^5.0.3"
+  }
+}
